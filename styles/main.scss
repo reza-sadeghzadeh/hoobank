@@ -1,0 +1,22 @@
+.linear-text {
+  background-image: linear-gradient(
+    to right,
+    theme("colors.custom.blue"),
+    white
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+.radial-gradient-ball {
+  background-image: radial-gradient(white, theme("colors.custom.blue"));
+}
+
+.border-gradient {
+  // border-image-source: linear-gradient(to right,  theme("colors.custom.blue"), white);
+  border-color: theme("colors.custom.blue");
+  border-image-slice: 1;
+  border-width: 3px;
+}

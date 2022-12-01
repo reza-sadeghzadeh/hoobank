@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hoo-container {
+  @apply sm:max-w-screen-sm mx-auto md:max-w-screen-md 9xl:px-24  9xl:max-w-screen-9xl;
+}
+
+.hubberger {
+  width: 25px;
+  height: 1px;
+  background-color: white;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+  }
+  &::before {
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+  }
+}

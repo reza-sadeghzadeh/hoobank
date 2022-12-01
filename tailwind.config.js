@@ -6,7 +6,17 @@ module.exports = {
     "./layouts/**/*.{ts,tsx,js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "9xl": "1440px",
+      },
+      colors: {
+        custom: {
+          darkBackground: "#00040F",
+          blue: "#33BBCF",
+        },
+      },
+    },
   },
   plugins: [],
 };
