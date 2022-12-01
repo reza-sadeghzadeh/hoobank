@@ -23,7 +23,7 @@ const Header = () => {
           <a href="" className="font-extralight opacity-70">
             Solution
           </a>
-          <div className="translate-y-1.5">
+          {/* <div className="translate-y-1.5">
             <svg
               width="24"
               height="16"
@@ -41,7 +41,7 @@ const Header = () => {
               <rect y="12" width="24" height="2" fill="white" />
               <rect y="8" width="24" height="2" fill="white" />
             </svg>
-          </div>
+          </div> */}
         </div>
         <div className="hubberger md:hidden" />
       </nav>
