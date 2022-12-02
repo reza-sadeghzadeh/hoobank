@@ -1,18 +1,17 @@
-import Image from "next/image";
-import TopCard from "../public/assets/hero/TopCard";
 import { motion } from "framer-motion";
-import mobileHeroPNG from "../public/assets/hero/mobile-hero.png";
+import Image from "next/image";
 import BottomCard from "../public/assets/hero/BottomCard";
 import BottomCardSM from "../public/assets/hero/BottomCardSM";
 import MiddleCard from "../public/assets/hero/MiddleCard";
 import MiddleCardSM from "../public/assets/hero/MiddleCardSM";
+import mobileHeroPNG from "../public/assets/hero/mobile-hero.png";
 import shine from "../public/assets/hero/shine.png";
+import TopCard from "../public/assets/hero/TopCard";
 import Discount from "./subComps/Discount";
-import TopCardSM from "../public/assets/hero/TopCardSM";
 
 const Hero = () => {
   return (
-    <section className="hoo-container flex max-md:flex-col-reverse justify-center items-center 9xl:py-8 9xl:my-12 md:my-8">
+    <section className="hoo-container flex max-md:flex-col-reverse justify-center items-center 9xl:py-8 9xl:my-12">
       <div className="md:w-1/2 h-screen/2 text-center w-full  md:text-left relative text-white md:pt-8 pb-20">
         <Discount />
         <motion.h1
@@ -69,7 +68,7 @@ const Hero = () => {
         </p>
       </div>
       {/* desktop */}
-      <div className="pointer-events-none 9xl:flex hidden cursor-default scale-90 md:w-1/2 justify-center flex-col items-center h-96">
+      <div className="pointer-events-none 9xl:flex hidden cursor-default scale-90 px-4 md:w-1/2 justify-center flex-col items-center h-96">
         <motion.div
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
@@ -94,7 +93,7 @@ const Hero = () => {
 
         <div className="w-full relative">
           <Image
-            className="absolute scale-150 left-6 -top-80 z-0"
+            className="absolute scale-125 left-6 -top-80 z-0"
             src={shine}
             width="600"
             height={700}
@@ -128,10 +127,10 @@ const Hero = () => {
         </div>
       </div>
       {/* tablet */}
-      <div className="pointer-events-none 9xl:hidden  cursor-default scale-90 w-1/2  hidden  md:flex justify-center flex-col items-center h-96">
+      <div className="pointer-events-none 9xl:hidden pr-24 cursor-default scale-90 w-1/2  translate-y-12  hidden  md:flex justify-center flex-col items-center h-96">
         <div className="w-full relative flex ">
           <Image
-            className="absolute 9xl:scale-150 md:scale-125 left-6 9xl:-top-80 md:-top-52 -top-96 hidden md:block"
+            className="absolute left-14 scale-150 -top-36 "
             src={shine}
             width="600"
             height={700}
@@ -139,7 +138,7 @@ const Hero = () => {
           />
           <motion.div
             className="w-full absolute left-0"
-            initial={{ x: 80, y: -20, opacity: 0.2 }}
+            initial={{ x: 60, y: -20, opacity: 0.2 }}
             animate={{ opacity: 1, y: -240 }}
             transition={{ duration: 1 }}
           >
@@ -452,7 +451,7 @@ const Hero = () => {
 
           <motion.div
             className="w-full absolute   z-10"
-            initial={{ x: 20, y: -40, opacity: 0.2 }}
+            initial={{ x: 0, y: -40, opacity: 0.2 }}
             animate={{ opacity: 1, y: -200 }}
             transition={{ duration: 1 }}
           >
