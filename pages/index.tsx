@@ -1,12 +1,15 @@
 import Head from "next/head";
-import BillControl from "../components/BillControl";
-import Brands from "../components/Brands";
-import Business from "../components/Business";
-import CallToAction from "../components/CallToAction";
-import CardDeal from "../components/CardDeal";
-import Counter from "../components/Counter";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
+import {
+  BillControl,
+  Brands,
+  Business,
+  CallToAction,
+  CardDeal,
+  Counter,
+  Footer,
+  Header,
+  Hero,
+} from "../components";
 import Opinions from "../components/Opinions";
 
 export default function Home() {
@@ -26,6 +29,7 @@ export default function Home() {
       <Opinions />
       <Brands />
       <CallToAction />
+      <Footer />
     </main>
   );
 }
