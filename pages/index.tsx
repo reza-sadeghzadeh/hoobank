@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Business from "../components/Business";
+import Counter from "../components/Counter";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      <Counter />
       {/* <Business /> */}
     </main>
   );
