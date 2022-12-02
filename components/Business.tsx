@@ -15,7 +15,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <button className="rounded-xl text-sm mt-8 bg-gradient-to-l bg-button-gradient bg-custom-blue px-6 py-4">
+        <button className="text-custom-darkBackground rounded-xl text-sm mt-8 bg-gradient-to-l bg-button-gradient bg-custom-blue px-6 py-4">
           Get Started
         </button>
       </div>

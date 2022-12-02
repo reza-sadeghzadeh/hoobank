@@ -17,7 +17,7 @@ const CardDeal = () => {
           placerat.
         </p>
         <div className="flex justify-start max-9xl:justify-center items-center">
-          <button className="rounded-xl text-sm mt-8 bg-gradient-to-l bg-button-gradient bg-custom-blue px-6 py-4">
+          <button className="text-custom-darkBackground rounded-xl text-sm mt-8 bg-gradient-to-l bg-button-gradient bg-custom-blue px-6 py-4">
             Get Started
           </button>
         </div>
