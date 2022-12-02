@@ -8,9 +8,9 @@ const Header = () => {
     <header className="py-8">
       <nav className="hoo-container mx-auto flex justify-between text-white items-center">
         <Link href={"/"}>
-          <Image alt="logo" width={118} height={32} src={logo} />
+          <Image alt="logo" width={125} height={32} src={logo} />
         </Link>
-        <div className="w-1/2 font-extralight flex justify-between max-md:hidden">
+        <div className="w-1/2 font-extralight text-md flex justify-between max-md:hidden">
           <a href="" className="font-extralight">
             Home
           </a>

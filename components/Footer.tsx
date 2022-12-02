@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-start items-start flex-col">
             <h4 className="mb-4 text-lg">Partner</h4>
-            <div className="text-md opacity-70 flex flex-col">
+            <div className="md:text-md text-sm opacity-70 flex flex-col">
               <Link className="my-2" href={"/"}>
                 Our Partner
               </Link>
