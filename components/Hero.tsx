@@ -1,6 +1,7 @@
 import Image from "next/image";
 import TopCard from "../public/assets/hero/TopCard";
 import { motion } from "framer-motion";
+import mobileHeroPNG from "../public/assets/hero/mobile-hero.png";
 import BottomCard from "../public/assets/hero/BottomCard";
 import BottomCardSM from "../public/assets/hero/BottomCardSM";
 import MiddleCard from "../public/assets/hero/MiddleCard";
@@ -12,7 +13,7 @@ import TopCardSM from "../public/assets/hero/TopCardSM";
 const Hero = () => {
   return (
     <section className="hoo-container flex max-md:flex-col-reverse justify-center items-center 9xl:py-8 9xl:my-12 md:my-8">
-      <div className="md:w-1/2 h-screen/2 text-center   md:text-left relative text-white md:pt-8 pb-20">
+      <div className="md:w-1/2 h-screen/2 text-center w-full  md:text-left relative text-white md:pt-8 pb-20">
         <Discount />
         <motion.h1
           animate={{ opacity: 1 }}
@@ -38,7 +39,7 @@ const Hero = () => {
         >
           Payment Method.
         </motion.h1>
-        <button className="9xl:w-32  9xl:h-32 h-24 w-24 text-sm  absolute 9xl:right-12 9xl:top-16 top-24 -right-2 font-medium  rounded-full border-gradient flex-col flex justify-center items-center">
+        <button className="9xl:w-32  9xl:h-32 h-24 w-24 text-sm  absolute 9xl:right-12 9xl:top-16 md:top-32 md:-right-2 -bottom-16 max-md:left-1/2 max-md:-translate-x-1/2 max-md:mb-24  font-medium  rounded-full border-gradient flex-col flex justify-center items-center">
           <div className="flex justify-center   items-center linear-text">
             <p className="-mr-2">GET</p>
             <svg
@@ -61,7 +62,7 @@ const Hero = () => {
           </div>
           <div className="linear-text -mt-2">Started</div>
         </button>
-        <p className="text-white opacity-70  font-light text-md mt-12 w-2/3">
+        <p className="text-white opacity-70  font-light text-sm  md:text-md md:mt-12 mt-6 md:w-2/3 w-full max-md:pb-20">
           Our team of experts uses a methodology to identify the credit cards
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
@@ -127,7 +128,7 @@ const Hero = () => {
         </div>
       </div>
       {/* tablet */}
-      <div className="pointer-events-none 9xl:hidden  cursor-default scale-90  w-full  md:w-1/2   flex justify-center flex-col items-center h-96">
+      <div className="pointer-events-none 9xl:hidden  cursor-default scale-90 w-1/2  hidden  md:flex justify-center flex-col items-center h-96">
         <div className="w-full relative flex ">
           <Image
             className="absolute 9xl:scale-150 md:scale-125 left-6 9xl:-top-80 md:-top-52 -top-96 hidden md:block"
@@ -468,6 +469,17 @@ const Hero = () => {
         </div>
       </div>
       {/* mobile */}
+      <div className="pointer-events-none cursor-default w-full   md:hidden   flex justify-center flex-col items-center   ">
+        <div className="w-full flex justify-center items-center -translate-y-20 -mb-40">
+          <Image
+            src={mobileHeroPNG}
+            height="500"
+            width={450}
+            className=" "
+            alt="hoo cards"
+          />
+        </div>
+      </div>
     </section>
   );
 };
