@@ -5,7 +5,7 @@ const Business = () => {
     <section className="hoo-container flex max-9xl:flex-col justify-center items-center py-6 mt-12">
       <div className="flex-col text-center 9xl:text-left text-white justify-center items-center 9xl:w-1/2">
         <h2
-          className="9xl:text-4xl text-2xl font-extrabold mb-6 "
+          className="9xl:text-4xl text-3xl font-extrabold mb-6 "
           style={{ lineHeight: 1.6 }}
         >
           You do the business, we’ll handle the money.

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BillControl from "../components/BillControl";
 import Business from "../components/Business";
 import Counter from "../components/Counter";
 import Header from "../components/Header";
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Counter />
       <Business />
+      <BillControl />
     </main>
   );
 }
