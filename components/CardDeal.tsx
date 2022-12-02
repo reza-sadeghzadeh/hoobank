@@ -4,12 +4,12 @@ import cardDeal from "../public/assets/main-page/card-deal.png";
 const CardDeal = () => {
   return (
     <section className="hoo-container flex max-9xl:flex-col  justify-center items-center py-6 mt-6">
-      <div className="flex-col text-center 9xl:text-left text-white justify-center items-center 9xl:w-1/2">
+      <div className="flex-col text-center 9xl:text-left text-white 9xl:pr-12 justify-center items-center 9xl:w-1/2">
         <h2
           className="9xl:text-4xl text-3xl font-extrabold mb-6 "
           style={{ lineHeight: 1.6 }}
         >
-          Easily control your billing & invoicing.
+          Find a better card deal in few easy steps.
         </h2>
         <p className=" opacity-70 text-md">
           Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio

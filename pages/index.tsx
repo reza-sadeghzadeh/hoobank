@@ -5,6 +5,7 @@ import CardDeal from "../components/CardDeal";
 import Counter from "../components/Counter";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Opinions from "../components/Opinions";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Business />
       <BillControl />
       <CardDeal />
+      <Opinions />
     </main>
   );
 }

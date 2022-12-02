@@ -11,7 +11,7 @@ const BillControl = () => {
       <div className="flex max-9xl:mt-12 9xl:w-1/2  w-full 9xl:flex-col flex-col justify-center md:flex-row">
         <Image src={billControl} width={500} height={700} alt="info" />
       </div>
-      <div className="flex-col text-center 9xl:text-left text-white justify-center items-center 9xl:w-1/2">
+      <div className="flex-col text-center 9xl:text-left text-white 9xl:pr-12 justify-center items-center 9xl:w-1/2">
         <h2
           className="9xl:text-4xl text-3xl font-extrabold mb-6 "
           style={{ lineHeight: 1.6 }}
