@@ -29,12 +29,12 @@ const Opinions = () => {
     },
   ];
   return (
-    <section className="hoo-container flex justify-center flex-col items-center py-16">
-      <div className="text-white flex justify-center items-center w-full">
-        <h3 className="text-left  9xl:text-4xl text-3xl font-medium w-1/2 mb-6 9xl:w-1/3">
+    <section className="hoo-container flex justify-center flex-col items-center pt-16">
+      <div className="text-white max-md:text-center flex justify-center items-center w-full max-md:flex-col">
+        <h3 className="md:text-left  9xl:text-4xl text-3xl font-medium max-md:w-full w-1/2 mb-6 9xl:w-1/3">
           What people are saying about us
         </h3>
-        <p className="opacity-70 text-md 9xl:px-52 w-1/2 9xl:w-2/3">
+        <p className="opacity-70 max-md:w-full text-md 9xl:px-52 w-1/2 9xl:w-2/3">
           Everything you need to accept card payments and grow your business
           anywhere on the planet.
         </p>

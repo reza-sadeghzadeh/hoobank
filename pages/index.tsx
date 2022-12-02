@@ -1,5 +1,6 @@
 import Head from "next/head";
 import BillControl from "../components/BillControl";
+import Brands from "../components/Brands";
 import Business from "../components/Business";
 import CardDeal from "../components/CardDeal";
 import Counter from "../components/Counter";
@@ -22,6 +23,7 @@ export default function Home() {
       <BillControl />
       <CardDeal />
       <Opinions />
+      <Brands />
     </main>
   );
 }
