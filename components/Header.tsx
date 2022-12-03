@@ -1,9 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import logo from "../public/logo.svg";
 
-const Header = () => {
+const Header = ({
+  setIsSideBarOpen,
+  isSideBarOpen,
+}: {
+  isSideBarOpen: boolean;
+  setIsSideBarOpen: Dispatch<SetStateAction<boolean>>;
+}) => {
   return (
     <header className="py-8">
       <nav className="hoo-container mx-auto flex justify-between text-white items-center">
@@ -43,7 +49,12 @@ const Header = () => {
             </svg>
           </div> */}
         </div>
-        <div className="hubberger md:hidden" />
+        <div
+          className="hover:cursor-pointer py-4"
+          onClick={() => setIsSideBarOpen(!isSideBarOpen)}
+        >
+          <div className="hubberger md:hidden" />
+        </div>
       </nav>
     </header>
   );
