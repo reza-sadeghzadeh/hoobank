@@ -16,7 +16,7 @@ const Header = ({
         <Link href={"/"}>
           <Image alt="logo" width={125} height={32} src={logo} />
         </Link>
-        <div className="w-1/2 font-extralight text-md flex justify-between max-md:hidden">
+        <div className="w-1/2 font-extralight text-md flex items-center justify-between max-md:hidden">
           <a href="" className="font-extralight">
             Home
           </a>
@@ -50,10 +50,10 @@ const Header = ({
           </div> */}
         </div>
         <div
-          className="hover:cursor-pointer py-4"
+          className="hover:cursor-pointer py-4  md:hidden"
           onClick={() => setIsSideBarOpen(!isSideBarOpen)}
         >
-          <div className="hubberger md:hidden" />
+          <div className="hubberger" />
         </div>
       </nav>
     </header>
