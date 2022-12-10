@@ -42,6 +42,7 @@ const Opinions = () => {
       <div className="flex justify-between max-9xl:flex-col items-start w-full py-12 mt-12">
         {comments.map((c, i) => (
           <div
+            key={i}
             className={`px-8 flex flex-col justify-center items-start ${
               i == 0 ? "bg-white-gradient" : ""
             }  mx-6  rounded-3xl py-12`}
