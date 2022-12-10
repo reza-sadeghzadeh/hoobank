@@ -58,7 +58,7 @@ const Opinions = () => {
               <path
                 d="M11.7984 27.6L18.9984 0H12.3984L0.398438 27.6H11.7984ZM35.7984 27.6L42.9984 0H36.3984L24.3984 27.6H35.7984Z"
                 fill="#00D9F5"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
             </svg>
             <p className="text-md  text-white font-light">{c.comment}</p>

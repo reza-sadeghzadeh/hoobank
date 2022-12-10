@@ -33,9 +33,9 @@ export default () => {
           width="397.812"
           height="237.284"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="4.5" />
           <feComposite
             in2="SourceAlpha"
@@ -57,14 +57,10 @@ export default () => {
           y2="295.841"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.7" />
-          <stop
-            offset="0.667914"
-            stop-color="#F9F9F9"
-            stop-opacity="0.175336"
-          />
-          <stop offset="1" stop-color="#F9F9F9" stop-opacity="0.1" />
-          <stop offset="1" stop-color="white" stop-opacity="0.2" />
+          <stop stopColor="white" stopOpacity="0.7" />
+          <stop offset="0.667914" stopColor="#F9F9F9" stopOpacity="0.175336" />
+          <stop offset="1" stopColor="#F9F9F9" stopOpacity="0.1" />
+          <stop offset="1" stopColor="white" stopOpacity="0.2" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1_253"
@@ -74,8 +70,8 @@ export default () => {
           y2="284"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0.1" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0.1" />
         </linearGradient>
       </defs>
     </svg>
